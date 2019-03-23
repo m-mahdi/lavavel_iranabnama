@@ -7,7 +7,7 @@
 body{
   background: #fff;
   color: #666666;
-  font-family: "Open Sans", sans-serif;
+  font-family: Samim;
 }
 
 a{
@@ -118,7 +118,8 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #header.header-scrolled{
-  background: rgba(0, 0, 0, 0.9);
+  /*background: rgba(0, 0, 0, 0.9);*/
+  background-image: linear-gradient(0deg, #002752, #045c90 50%, #3090cc 100%);
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
@@ -166,7 +167,7 @@ h1, h2, h3, h4, h5, h6{
 
 #intro .carousel-item::before{
   content: '';
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.3);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -520,7 +521,8 @@ body.mobile-nav-active #mobile-nav-toggle{
 }
 
 #featured-services{
-  background: #000;
+  /*background: #002752;*/
+  background-image: linear-gradient(0deg, #002752, #0f6674 , #002752 100%);
 }
 
 #featured-services .box{
@@ -528,7 +530,7 @@ body.mobile-nav-active #mobile-nav-toggle{
 }
 
 #featured-services .box-bg{
-  background-image: linear-gradient(0deg, #000000 0%, #242323 50%, #000000 100%);
+  background-image: linear-gradient(0deg, #002752, #0f6674 , #002752 100%);
 }
 
 #featured-services i{

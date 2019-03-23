@@ -84,9 +84,9 @@
                     <div class="carousel-background"><img src='{{("assets/img/intro-carousel/1.jpg")}}' alt=""></div>
                     <div class="carousel-container">
                         <div class="carousel-content">
-                            <h2>We are professional</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                            <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+                            <h2>آبنمای ریتمیک </h2>
+                            <p>طراحی و اجرای انواع آبنمای ریتمیک به صورت ویژه و تخصصی در شرکت رایان فرایند صورت می گیرد. در ابنمای ریتمیک همزمانی ریتم ابنما با نورپردازی و بکارگیری ریتم های متنوع اهمیت دارد. در ابنماهای ریتمیک با رقص زیبای آب و با نور پردازی های زیبا آرامشی ویژه دارد.</p>
+                            {{--<a href="#featured-services" class="btn-get-started scrollto">Get Started</a>--}}
                         </div>
                     </div>
                 </div>
@@ -95,9 +95,10 @@
                     <div class="carousel-background"><img src='{{("assets/img/intro-carousel/2.jpg")}}' alt=""></div>
                     <div class="carousel-container">
                         <div class="carousel-content">
-                            <h2>At vero eos et accusamus</h2>
-                            <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut.</p>
-                            <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+                            <h2>نازل های آبنمایی</h2>
+                            <p>
+                                 نازل آبنما از مهمترین ادوات سیالاتی آبنما می باشد که طراحی و ساخت انواع نازل آبنما در رایان فرایند از بهترین مواد صورت می پذیرد</p>
+                            {{--<a href="#featured-services" class="btn-get-started scrollto">Get Started</a>--}}
                         </div>
                     </div>
                 </div>
@@ -106,9 +107,9 @@
                     <div class="carousel-background"><img src='{{("assets/img/intro-carousel/3.jpg")}}' alt=""></div>
                     <div class="carousel-container">
                         <div class="carousel-content">
-                            <h2>Temporibus autem quibusdam</h2>
-                            <p>Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt omnis iste natus error sit voluptatem accusantium.</p>
-                            <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+                            <h2>آبنماها</h2>
+                            <p>رایان فرایند طراح و مجری انواع آبنمای موزیکال، آبنمای ریتمیک، آبنمای هارمونیک، آبنمای میدانی و آبنمای داخلی مجتمع های تجاری-تفریحی</p>
+                            {{--<a href="#featured-services" class="btn-get-started scrollto">Get Started</a>--}}
                         </div>
                     </div>
                 </div>
@@ -117,9 +118,9 @@
                     <div class="carousel-background"><img src='{{("assets/img/intro-carousel/4.jpg")}}' alt=""></div>
                     <div class="carousel-container">
                         <div class="carousel-content">
-                            <h2>Nam libero tempore</h2>
-                            <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum.</p>
-                            <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+                            <h2>انواع ابنما</h2>
+                            <p>رایان فرایند طراح و مجری انواع آبنمای موزیکال، آبنمای ریتمیک، آبنمای هارمونیک، آبنمای میدانی و آبنمای داخلی مجتمع های تجاری-تفریحی</p>
+                            {{--<a href="#featured-services" class="btn-get-started scrollto">Get Started</a>--}}
                         </div>
                     </div>
                 </div>
@@ -128,9 +129,9 @@
                     <div class="carousel-background"><img src='{{("assets/img/intro-carousel/5.jpg")}}' alt=""></div>
                     <div class="carousel-container">
                         <div class="carousel-content">
-                            <h2>Magnam aliquam quaerat</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                            <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+                            <h2>آبنمای موزیکال</h2>
+                            <p>طراحی و اجرای انواع آبنما موزیکال پارک ها - ابنمای موزیکال مجتمع های تجاری - تفریحی با بهترین کیفیت و با نرم افزار ویژه آبنمای موزیکال</p>
+                            {{--<a href="#featured-services" class="btn-get-started scrollto">Get Started</a>--}}
                         </div>
                     </div>
                 </div>
@@ -160,15 +161,15 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-4 box">
-                    <i class="ion-ios-bookmarks-outline"></i>
-                    <h4 class="title"><a href="">Lorem Ipsum Delino</a></h4>
-                    <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                <div class="col-lg-4 box ">
+                    <a href=""> <i class="ion-ios-bookmarks-outline"></i></a>
+                    <h4 class="title"><a href="">کاتالوگ</a></h4>
+                    <p class="description">کاتالوگ آبنمایی</p>
                 </div>
 
                 <div class="col-lg-4 box box-bg">
                     <i class="ion-ios-stopwatch-outline"></i>
-                    <h4 class="title"><a href="">Dolor Sitema</a></h4>
+                    <h4 class="title"><a href="">نازل های ابنمایی</a></h4>
                     <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
                 </div>
 
@@ -189,8 +190,8 @@
         <div class="container">
 
             <header class="section-header">
-                <h3>About Us</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <h3>درباره ما</h3>
+                <p>رایان فرایند طراح و مجری انواع آبنما می باشد. ما در زمینه طراحی و اجرای آبنمای موزیکال نیز ابداعات ویژه ای داریم. در طراحی و اجرای انواع آبنما موزیکال از بهترین نازل آبنما، پروژکتور آبنما و با کیفیت ترین تجهیزات استفاده می گردد.</p>
             </header>
 
             <div class="row about-cols">
