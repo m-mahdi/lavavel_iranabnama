@@ -169,8 +169,8 @@
 
                 <div class="col-lg-4 box box-bg">
                     <i class="ion-ios-stopwatch-outline"></i>
-                    <h4 class="title"><a href="">نازل های ابنمایی</a></h4>
-                    <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                    <h4 class="title"><a href="">نازل های آبنمایی</a></h4>
+                    <p class="description">ایران آبنما طراح و ساخت انواع نازل آبنمایی </p>
                 </div>
 
                 <div class="col-lg-4 box">
