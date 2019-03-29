@@ -1,18 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa">
 <head>
     <meta charset="utf-8">
-    <title>BizPage Bootstrap Template</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <title>ایران آبنما</title>
+    {{--<meta content="width=device-width, initial-scale=1.0" name="viewport">--}}
+
+    <meta name="keywords" content="آبنما ، آبنمای موزیکال ،طراحی و اجرای ابنما، پروژکتور آبنما، آبنمای میدانی ، ابنمای ریتمیک، ابنمای موزیکال ، انواع نازل ابنما، نازل ابنمایی ، پروژکتور استخری ال ای دی ، پروژکتور ال ای دی واترپروف، ابنمای آماده ، ابنمای پرتابل ، پروژکتور نور پردازی">
+    <meta name="description" content="طراحی و اجرای انواع آبنما">
+
 
     <!-- Favicons -->
-    <link href='{{('assets/img/favicon.png')}}' rel="icon">
-    <link href='{{('assets/img/apple-touch-icon.png')}}' rel="apple-touch-icon">
+    {{--<link href='{{('assets/img/favicon.png')}}' rel="icon">--}}
+    <link href='{{('assets/img/logo.png')}}'>
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+    {{--<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">--}}
+    <link href="{{('assets/lib/samim-font/Samim.eot')}}">
+    <link href="{{('assets/lib/samim-font/Samim.ttf')}}">
+    <link href="{{('assets/lib/samim-font/Samim.woff')}}">
 
     <!-- Bootstrap CSS File -->
     <link href='{{("assets/lib/bootstrap/css/bootstrap.min.css")}}' rel="stylesheet">
@@ -26,13 +31,6 @@
 
     <!-- Main Stylesheet File -->
     <link href='{{('assets/css/style.css')}}' rel="stylesheet">
-
-    <!-- =======================================================
-      Theme Name: BizPage
-      Theme URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
-      Author: BootstrapMade.com
-      License: https://bootstrapmade.com/license/
-    ======================================================= -->
 </head>
 
 <body>
@@ -42,7 +40,6 @@
 ============================-->
 <header id="header">
     <div class="container-fluid">
-
 
         <nav id="nav-menu-container">
             <ul class="nav-menu">
@@ -63,10 +60,13 @@
             </ul>
         </nav><!-- #nav-menu-container -->
     </div>
-
-    <div id="logo" class="float-left">
-    <a href="#intro"><img src='{{("assets/img/logo.png")}}' alt="" title="" /></a>
+    <div id="logo" class="pull-right ">
+        <h1><a href="#intro" >ایران آبنما</a></h1>
     </div>
+
+    {{--<div id="logo" class="pull-left">--}}
+    {{--<a href="#intro"><img src='{{("assets/img/logo.png")}}' alt="" title="" /></a>--}}
+    {{--</div>--}}
 </header><!-- #header -->
 
 <!--==========================
@@ -170,13 +170,13 @@
                 <div class="col-lg-4 box box-bg">
                     <i class="ion-ios-stopwatch-outline"></i>
                     <h4 class="title"><a href="">نازل های آبنمایی</a></h4>
-                    <p class="description">ایران آبنما طراح و ساخت انواع نازل آبنمایی </p>
+                    <p class="description">ایران آبنما طراح و سازنده انواع نازل آبنمایی </p>
                 </div>
 
                 <div class="col-lg-4 box">
                     <i class="ion-ios-heart-outline"></i>
-                    <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-                    <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                    <h4 class="title"><a href="">پرژکتور های آبنمایی</a></h4>
+                    <p class="description">ایران آبنما طراح و سازنده انواع نازل های آبنمایی</p>
                 </div>
 
             </div>
@@ -247,8 +247,8 @@
         <div class="container">
 
             <header class="section-header wow fadeInUp">
-                <h3>Services</h3>
-                <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus, ad pro quaestio laboramus. Ei ubique vivendum pro. At ius nisl accusam lorenta zanos paradigno tridexa panatarel.</p>
+                <h3>خدمات</h3>
+                <p>ایران آبنما مجری پروژه ها آبنمایی</p>
             </header>
 
             <div class="row">
@@ -391,16 +391,16 @@
         <div class="container">
 
             <header class="section-header">
-                <h3 class="section-title">Our Portfolio</h3>
+                <h3 class="section-title">گالری</h3>
             </header>
 
             <div class="row">
                 <div class="col-lg-12">
                     <ul id="portfolio-flters">
-                        <li data-filter="*" class="filter-active">All</li>
-                        <li data-filter=".filter-app">App</li>
-                        <li data-filter=".filter-card">Card</li>
-                        <li data-filter=".filter-web">Web</li>
+                        <li data-filter="*" class="filter-active">گالری</li>
+                        <li data-filter=".filter-app">آبنما</li>
+                        <li data-filter=".filter-card">نازل</li>
+                        <li data-filter=".filter-web">پرژکتور</li>
                     </ul>
                 </div>
             </div>
@@ -550,26 +550,26 @@
     <!--==========================
       Clients Section
     ============================-->
-    <section id="clients" class="wow fadeInUp">
-        <div class="container">
+    {{--<section id="clients" class="wow fadeInUp">--}}
+        {{--<div class="container">--}}
 
-            <header class="section-header">
-                <h3>Our Clients</h3>
-            </header>
+            {{--<header class="section-header">--}}
+                {{--<h3>Our Clients</h3>--}}
+            {{--</header>--}}
 
-            <div class="owl-carousel clients-carousel">
-                <img src='{{("assets/img/clients/client-1.png")}}' alt="">
-                <img src='{{("assets/img/clients/client-2.png")}}' alt="">
-                <img src='{{("assets/img/clients/client-3.png")}}' alt="">
-                <img src='{{("assets/img/clients/client-4.png")}}' alt="">
-                <img src='{{("assets/img/clients/client-5.png")}}' alt="">
-                <img src='{{("assets/img/clients/client-6.png")}}' alt="">
-                <img src='{{("assets/img/clients/client-7.png")}}' alt="">
-                <img src='{{("assets/img/clients/client-8.png")}}' alt="">
-            </div>
+            {{--<div class="owl-carousel clients-carousel">--}}
+                {{--<img src='{{("assets/img/clients/client-1.png")}}' alt="">--}}
+                {{--<img src='{{("assets/img/clients/client-2.png")}}' alt="">--}}
+                {{--<img src='{{("assets/img/clients/client-3.png")}}' alt="">--}}
+                {{--<img src='{{("assets/img/clients/client-4.png")}}' alt="">--}}
+                {{--<img src='{{("assets/img/clients/client-5.png")}}' alt="">--}}
+                {{--<img src='{{("assets/img/clients/client-6.png")}}' alt="">--}}
+                {{--<img src='{{("assets/img/clients/client-7.png")}}' alt="">--}}
+                {{--<img src='{{("assets/img/clients/client-8.png")}}' alt="">--}}
+            {{--</div>--}}
 
-        </div>
-    </section><!-- #clients -->
+        {{--</div>--}}
+    {{--</section><!-- #clients -->--}}
 
     <!--==========================
       Clients Section
@@ -578,7 +578,7 @@
         <div class="container">
 
             <header class="section-header">
-                <h3>Testimonials</h3>
+                <h3>اخبار</h3>
             </header>
 
             <div class="owl-carousel testimonials-carousel">
@@ -739,7 +739,7 @@
         <div class="container">
 
             <div class="section-header">
-                <h3>Contact Us</h3>
+                <h3>تماس باما</h3>
                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
             </div>
 
